@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!----===== Iconscout CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!--<title>Responsive Regisration Form </title>-->
+  </head>
+  <body>
+    <div class="container">
+      <header>Birith Certificate</header>
+
+      <form action="#">
+        <div class="form first">
+          <div class="details personal">
+            <span class="title">Personal Details of a Child</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>First Name</label>
+                <input
+                  type="text"
+                  placeholder="Enter the First Name"
+                  class="required"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Middle Name</label>
+                <input type="text" placeholder="Enter the Middle Name" />
+              </div>
+              <div class="input-field">
+                <label>Surname</label>
+                <input
+                  type="text"
+                  placeholder="Enter the Surname"
+                  class="required"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Date of Birth</label>
+                <input
+                  type="date"
+                  placeholder="Enter birth date"
+                  class="required"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Place of Child Birth</label>
+                <select class="required" required>
+                  <option disabled selected>Select Place</option>
+                  <option>Home</option>
+                  <option>Hospital</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Gender</label>
+                <select class="required" required>
+                  <option disabled selected>Select gender</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Others</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="details address">
+            <span class="title">Address of Child Birth</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>Province</label>
+                <select class="required" required>
+                  <option disabled selected>Select Province</option>
+                  <option>Province no. 1</option>
+                  <option>Madhesh Pradesh</option>
+                  <option>Bagmati</option>
+                  <option>Gandaki</option>
+                  <option>Lumbini</option>
+                  <option>Karnali</option>
+                  <option>Sudurpaschim</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>VDC/Municipality</label>
+                <select class="required" required>
+                  <option disabled selected>Select VDC/Municipality</option>
+                  <option>VDC</option>
+                  <option>Municipality</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>List of VDC/Municipality</label>
+                <select class="required" required>
+                  <option disabled selected>Name of VDC/Municipality</option>
+                  <option>Amarchowk</option>
+                  <option>Damak</option>
+                  <option>Dewangung</option>
+                  <option>Gadhi</option>
+                  <option>Kamal</option>
+                  <option>Katahari</option>
+                  <option>Ratuwamai</option>
+                  <option>Urlabari</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Ward Number</label>
+                <input
+                  type="number"
+                  placeholder="Enter ward number"
+                  class="required"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>If Child Was Born In Other Country</label>
+                <input type="text" placeholder="Enter the Full Address" />
+              </div>
+            </div>
+          </div>
+
+          <div class="details additionalDetails">
+            <span class="title">Additional Details Of Child</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>Type of Birth</label>
+                <select required>
+                  <option disabled selected class="required" required>
+                    Select Type of Birth
+                  </option>
+                  <option>Single</option>
+                  <option>Twin</option>
+                  <option>More than two at once</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Weight of Child During Birth (In Gram)</label>
+                <input
+                  type="number"
+                  placeholder="Enter the Weight"
+                  class="required"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Person Who Helped During Child Birth</label>
+                <select class="required" required>
+                  <option disabled selected>Select Person</option>
+                  <option>Doctor</option>
+                  <option>Nurse</option>
+                  <option>Midwife</option>
+                  <option>Trained Midwife</option>
+                  <option>Family Member</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Mention Physical Defomed (If any)</label>
+                <input
+                  type="textarea"
+                  class="full-width-input-field"
+                  placeholder="Mention Physical Deformed"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="details grandfther">
+            <span class="title">Details of Child's Grandfather</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>First Name</label>
+                <input
+                  type="textbox"
+                  placeholder="Enter First Name"
+                  class="required"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Middle Name</label>
+                <input type="textbox" placeholder="Enter Middle Name" />
+              </div>
+              <div class="input-field">
+                <label>Surname</label>
+                <input
+                  type="textbox"
+                  placeholder="Enter Surname"
+                  class="required"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="details fther">
+            <span class="title">Details of Child's Parents</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>Date of Marriage</label>
+                <input
+                  type="date"
+                  placeholder="Enter Date of Marriage"
+                  class="required"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Marriage Regestration Number</label>
+                <input
+                  type="text"
+                  placeholder="Enter Marriage Regestration No."
+                  class="required"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="details father">
+            <span class="title">Details of Child's Father</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>First Name</label>
+                <input
+                  type="textbox"
+                  placeholder="Enter First Name"
+                  class="required"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Middle Name</label>
+                <input type="textbox" placeholder="Enter Middle Name" />
+              </div>
+              <div class="input-field">
+                <label>Surname</label>
+                <input
+                  type="textbox"
+                  placeholder="Enter Surname"
+                  class="required"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Citizenship Number(Must include if Nepali)</label>
+                <input type="textbox" placeholder="Enter Citizenship Number" />
+              </div>
+              <div class="input-field">
+                <label>Name of Country (If foreign Citizen)</label>
+                <input type="textbox" placeholder="Enter Country Name" />
+              </div>
+              <div class="input-field">
+                <label>Date of Birth</label>
+                <input
+                  type="date"
+                  placeholder="Enter Date of Birth"
+                  class="required"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Educational Qualification</label>
+                <input
+                  type="textbox"
+                  placeholder="Enter Educational Qualification"
+                />
+              </div>
+              <div class="input-field">
+                <label>Occupation</label>
+                <input type="textbox" placeholder="Enter Occupation" />
+              </div>
+              <div class="input-field">
+                <label>Religion</label>
+                <input
+                  type="textbox"
+                  placeholder="Enter Religion"
+                  class="required"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Caste</label>
+                <input
+                  type="textbox"
+                  placeholder="Enter Caste"
+                  class="required"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <button class="nextBtn">
+            <span class="btnText">Next</span>
+            <i class="uil uil-navigator"></i>
+          </button>
+        </div>
+
+        <!-- First page of form ends here  -->
+
+        <!-- Second Page of form Starts here  -->
+
+        <div class="form second">
+          <div class="details address">
+            <span class="title">Address of Child's Father</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>Province</label>
+                <select class="required" required>
+                  <option disabled selected>Select Province</option>
+                  <option>Province no. 1</option>
+                  <option>Madhesh Pradesh</option>
+                  <option>Bagmati</option>
+                  <option>Gandaki</option>
+                  <option>Lumbini</option>
+                  <option>Karnali</option>
+                  <option>Sudurpaschim</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>VDC/Municipality</label>
+                <select class="required" required>
+                  <option disabled selected>Select VDC/Municipality</option>
+                  <option>VDC</option>
+                  <option>Municipality</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>List of VDC/Municipality</label>
+                <select class="required" required>
+                  <option disabled selected>Name of VDC/Municipality</option>
+                  <option>Amarchowk</option>
+                  <option>Damak</option>
+                  <option>Dewangung</option>
+                  <option>Gadhi</option>
+                  <option>Kamal</option>
+                  <option>Katahari</option>
+                  <option>Ratuwamai</option>
+                  <option>Urlabari</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Ward Number</label>
+                <input
+                  type="number"
+                  placeholder="Enter ward number"
+                  class="required"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Village/Tole</label>
+                <input type="textbox" placeholder="Enter Village/Tole" />
+              </div>
+              <div class="input-field">
+                <label>House Number</label>
+                <input type="number" placeholder="Enter House Number" />
+              </div>
+            </div>
+          </div>
+
+          <div class="details Mother">
+            <span class="title">Details of Child's Mother</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>First Name</label>
+                <input
+                  type="textbox"
+                  placeholder="Enter First Name"
+                  class="required"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Middle Name</label>
+                <input type="textbox" placeholder="Enter Middle Name" />
+              </div>
+              <div class="input-field">
+                <label>Surname</label>
+                <input
+                  type="textbox"
+                  placeholder="Enter Surname"
+                  class="required"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Citizenship Number(Must include if Nepali)</label>
+                <input type="textbox" placeholder="Enter Citizenship Number" />
+              </div>
+              <div class="input-field">
+                <label>Name of Country (If foreign Citizen)</label>
+                <input type="textbox" placeholder="Enter Country Name" />
+              </div>
+              <div class="input-field">
+                <label>Date of Birth</label>
+                <input
+                  type="date"
+                  placeholder="Enter Date of Birth"
+                  class="required"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Educational Qualification</label>
+                <input
+                  type="textbox"
+                  placeholder="Enter Educational Qualification"
+                />
+              </div>
+              <div class="input-field">
+                <label>Occupation</label>
+                <input type="textbox" placeholder="Enter Occupation" />
+              </div>
+              <div class="input-field">
+                <label>Religion</label>
+                <input
+                  type="textbox"
+                  placeholder="Enter Religion"
+                  class="required"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Caste</label>
+                <input
+                  type="textbox"
+                  placeholder="Enter Caste"
+                  class="required"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="details address">
+            <span class="title">Address of Child's Mother</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>Province</label>
+                <select class="required" required>
+                  <option disabled selected>Select Province</option>
+                  <option>Province no. 1</option>
+                  <option>Madhesh Pradesh</option>
+                  <option>Bagmati</option>
+                  <option>Gandaki</option>
+                  <option>Lumbini</option>
+                  <option>Karnali</option>
+                  <option>Sudurpaschim</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>VDC/Municipality</label>
+                <select class="required" required>
+                  <option disabled selected>Select VDC/Municipality</option>
+                  <option>VDC</option>
+                  <option>Municipality</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>List of VDC/Municipality</label>
+                <select class="required" required>
+                  <option disabled selected>Name of VDC/Municipality</option>
+                  <option>Amarchowk</option>
+                  <option>Damak</option>
+                  <option>Dewangung</option>
+                  <option>Gadhi</option>
+                  <option>Kamal</option>
+                  <option>Katahari</option>
+                  <option>Ratuwamai</option>
+                  <option>Urlabari</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Ward Number</label>
+                <input
+                  type="number"
+                  placeholder="Enter ward number"
+                  class="required"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Village/Tole</label>
+                <input type="textbox" placeholder="Enter Village/Tole" />
+              </div>
+              <div class="input-field">
+                <label>House Number</label>
+                <input type="number" placeholder="Enter House Number" />
+              </div>
+            </div>
+          </div>
+
+          <div class="details applicant">
+            <span class="title">Details of Applicant</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>First Name</label>
+                <input
+                  type="textbox"
+                  placeholder="Enter First Name"
+                  class="required"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Middle Name</label>
+                <input type="textbox" placeholder="Enter Middle Name" />
+              </div>
+              <div class="input-field">
+                <label>Surname</label>
+                <input
+                  type="textbox"
+                  placeholder="Enter Surname"
+                  class="required"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Relation With Child </label>
+                <input
+                  type="textbox"
+                  placeholder="Enter Relation"
+                  class="required"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Citizenship Number (Must include if Nepali) </label>
+                <input type="textbox" placeholder="Enter Citizenship Number" />
+              </div>
+              <div class="input-field">
+                <label>Passport Number (If foreign Citizen)</label>
+                <input type="textbox" placeholder="Enter Passport Number" />
+              </div>
+              <div class="input-field">
+                <label>Name of Passport Issue Country</label>
+                <input type="taxtbox" placeholder="Enter Country Name" />
+              </div>
+
+              <div class="input-field">
+                <label>Date of Application Submission</label>
+                <input type="date" class="current-date" readonly />
+              </div>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <div class="backBtn">
+              <i class="uil uil-navigator"></i>
+              <span class="btnText">Back</span>
+            </div>
+
+            <button type="submit" class="sumbit">
+              <span class="btnText">Submit</span>
+              <i class="uil uil-navigator"></i>
+            </button>
+          </div>
+        </div>
+        <!-- Second page contants ends here  -->
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
